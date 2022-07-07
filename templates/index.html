@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Flask QR Generator</title>
+    <link rel="icon" type="image/x-icon" href="static/youth_icon.png">
+  </head>
+  <body>
+ <div class="topnav">
+     <div class="container">
+    <a class="navbar-brand" href="/">
+      <img src="static/youth_icon.png" alt="" width="30" height="24">
+    </a>
+  </div>
+  <a href="https://www.linkedin.com/in/siddhant-deshmukh-a25421221/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3B1HijYw2HQ96Pb2Am4YEPeQ%3D%3D" target="_blank" rel="noopener noreferrer">Linkedin</a>
+  <a href="https://github.com/Siddhant2601" target="_blank" rel="noopener noreferrer"
+  >Github</a>
+</div>
+ <br>
+ <br>
+ <br>
+    <div class="input-group mb-3">
+  <span class="input-group-text" id="inputGroup-sizing-default">Enter link or text:</span>
+        <form action="{{ url_for("index")}}" method="get">
+        <label for="text_"></label>
+  <input type="text" id="text_" name="fname" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+        <button type="submit">Enter</button>
+
+</div>
+
+
+  <style>
+
+    .topnav {
+  background-color: #d9cfcf;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #360404;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+  </style>
+
+  </body>
+</html>
