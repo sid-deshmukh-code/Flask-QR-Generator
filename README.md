@@ -2,7 +2,8 @@
 ## _Online QR generator_
 
 
-## What it does
+## What's moto of using it?? 
 
-- Convert text or link in a qr code
+- Convert text or link in a qr code. 
+- Under development. 
 
