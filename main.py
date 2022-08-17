@@ -2,7 +2,7 @@ from flask import Flask, render_template, request, send_file
 from flask_qrcode import QRcode
 import qrcode
 
-
+# app 
 app = Flask(__name__)
 QRcode(app)
 
